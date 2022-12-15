@@ -146,3 +146,23 @@ body {
 .ingredients-btn:hover {
     background: var(--tenne-tawny-dark);
 }
+@media screen and (min-width: 992px) {
+    #recipe {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 768px) {
+    #recipe {
+        display:flex;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .recipe-item {
+        margin: 0;
+    }
+
+    .recipe-details {
+        width: 700px;
+    }
+}
