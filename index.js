@@ -24,6 +24,9 @@ function getRecipeList(){
                         </div>
                     </div>`;
             })
+        } else {
+            html = "Try again, meal wasn't found!"
+            mealOR.classList.add('error')
         }
         mealOR.innerHTML = html;
     })
