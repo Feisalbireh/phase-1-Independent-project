@@ -34,3 +34,8 @@ function getRecipeList(){
     })
 
 }
+
+function getMealRecipe(e){
+    e.preventDefault();
+    if(e.target.classList.contains())
+}
