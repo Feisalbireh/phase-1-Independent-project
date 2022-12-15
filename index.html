@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All you can eat Ingredients</title>
+    <title>Find Meal For Your Ingredients</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="container">
         <div class="recipe-li">
             <div class="recipe-search">
-                <h2 class="title">All you can eat Ingredients</h2>
+                <h2 class="title">Find Meals For Your Ingredients</h2>
                 <div class="recipe-search-area">
                     <input type="text" class="search-content" placeholder="Enter an ingredient" id="search-inp">
-                    <button type="submit" class="search-btn-l" id="search-btn"></button>
-                    <i class="i-search"></i>
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
 
-                    <div class="recipe-result">
-                        <h2 class="title">Search Results:</h2>
-                        <div id="recipe">
+            <div class="recipe-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="recipe">
                             <div class="recipe-img">
                                 <div class="recipe-item">
                                     <img src="lasagna.jpg" alt="lasagna">
                                     <div class="recipe-name">
                                         <h3>lasagna</h3>
-                                        <a href="-" class="ingredients-btn">Ingredients</a>
+                                        <a href="#" class="ingredients-btn">Ingredients</a>
                                     </div>
                                 </div>
                             </div>
@@ -40,4 +48,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>
