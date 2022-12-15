@@ -1,0 +1,27 @@
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.text{
+    opacity: 0.8;
+
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 250;
+    line-height: 1.5;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+    cursor:pointer;
+    outline: 0;
+    font-size:1.05rem;
+    font-family: inherit;
+}
