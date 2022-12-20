@@ -73,3 +73,23 @@ function mealRecipeModal(meal) {
   mealDetailsContent.innerHTML = html;
   mealDetailsContent.parentElement.classList.add("showRecipe");
 }
+
+const login = document.getElementById('login-btn')
+const loginDiv = document.getElementById('login-div')
+
+loginDiv.style.display = 'none'
+login.addEventListener('click',() => {
+
+    body.appendChild(loginDiv);
+    loginDiv.style.display = 'block'
+    blog.style.display = "none";
+    video.style.display = "none";
+    playerContainer.style.display = "none";
+    searchContainer.style.display = "none";
+})
+
+const loginBtn = document.getElementById("login");
+loginBtn.addEventListener("click", () => {
+  loginDiv.style.display = "none";
+  
+});
