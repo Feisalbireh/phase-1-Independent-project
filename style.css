@@ -10,6 +10,7 @@
 }
 
 body {
+    background-image:url() ;
     background-color: antiquewhite;
     font-weight: 300;
     font-size: 1.05rem;
@@ -295,75 +296,3 @@ body {
     }
 }
 
-/* Login section */
-
-.login-div {
-    margin-left: 500px;
-    margin-top: 75px;
-    height: 500px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    background: #003060;
-    box-shadow: inset 8px 8px 16px #001326,
-        inset -8px -8px 16px #004D9A;
-}
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.login-p {
-    margin-bottom: -6px;
-    margin-left: -120px;
-    font-weight: bold;
-    font-size: 18px;
-    color: #D4E6F5;
-}
-
-.login-input {
-    width: 250px;
-    height: 25px;
-    font-size: 17px;
-    color: #D4E6F5;
-    border-radius: 10px;
-    background: linear-gradient(145deg, #003367, #002B56);
-    box-shadow: 9px 9px 18px #001326,
-        -9px -9px 18px #004D9A;
-}
-
-.login-input:hover {
-    border-radius: 10px;
-    background: linear-gradient(145deg, #003367, #002B56);
-    box-shadow: 9px 9px 18px #001326,
-        -9px -9px 18px #004D9A;
-}
-
-.login {
-    margin-top: 20px;
-    height: 30px;
-    width: 80px;
-    font-size: 17px;
-    border: #003060;
-    color: #D4E6F5;
-    border-radius: 10px;
-    background: linear-gradient(145deg, #003367, #002B56);
-    box-shadow: 9px 9px 18px #001326,
-        -9px -9px 18px #004D9A;
-}
-
-.login:hover {
-    border-radius: 10px;
-    background: linear-gradient(145deg, #0F8FE3, #0D79BF);
-    box-shadow: 9px 9px 18px #063655,
-        -9px -9px 18px #16D6FF;
-}
-
-h1 {
-    margin-top: 35px;
-    color: #D4E6F5;
-}
