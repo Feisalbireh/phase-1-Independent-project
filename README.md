@@ -19,7 +19,7 @@ In order for you to use the content on this repo ensure you have the following:
  
 To use this application live just press the link in the about section above, or you can press it here
  
-               "https://frolicking-basbousa-058c91.netlify.app"
+               "https://sunny-paprenjak-4da960.netlify.app"
  
 When the page loads you should see the title of the project and the search bar.
  
