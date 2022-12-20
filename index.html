@@ -16,29 +16,29 @@
 <nav class="nav-bar">
     <h5 class="brand"></h5>
     <ul>
-        <li id="login-btn" class="players-list"><a class="link" href="#">LOGIN</a></li>
+        <li id="login-btn" class="meal-login"><a class="link" href="#">LOGIN</a></li>
     </ul>
 
 </nav>
 
 <div id="login-div" class="login-div">
     <form class="login-form">
-        <h1 class="font"></h1>
-        <p class="login-p font"> Enter Username</p>
-        <input class="login-input font" id="user-input" type="text" placeholder="Username">
-        <P class="login-p font"> Enter Password</P>
-        <input class="login-input font" id="password" type="text" placeholder="Password">
+        <h1 class="meal-db"></h1>
+        <p class="login-p"> Enter Username</p>
+        <input class="login-input" id="user-input" type="text" placeholder="Username">
+        <P class="login-p"> Enter Password</P>
+        <input class="login-input" id="password" type="text" placeholder="Password">
         <button id="login" type="submit" class="login font">Login</button>
     </form>
 </div>
 
   <!-- recipe -->
-    <div class="contain">
+    <div class="contain" id="contain">
         <div class="recipe-li">
             <div class="recipe-search">
-                <h2 class="title">All you can eat Ingredients!</h2>
+                <h2 class="title" id="title">All you can eat Ingredients!</h2>
 
-                <div class="recipe-search-area">
+                <div class="recipe-search-area" id="searchDiv">
                     <input type="text" class="search-content" placeholder="Enter an ingredient" id="search-inp">
                     <button type="submit" class="search-btn btn" id="search-btn">
                         <i class="fas fa-search"></i>
@@ -47,7 +47,7 @@
             </div>
 
             <div class="recipe-result">
-                <h2 class="title"> Search Results:</h2>
+                <h2 class="title" id="titleDiv"> Search Results:</h2>
                 <div id="recipe">
                    
 

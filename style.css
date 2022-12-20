@@ -296,3 +296,69 @@ body {
     }
 }
 
+.meal-login {
+    background-color: #daa311;
+    color:#6a07b5;
+    margin-right:1330px;
+    margin-left:30px;
+    list-style: none;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+/* .login-input{
+   border-radius: 5px;
+   border-color: #daa311;
+   
+} */
+
+#login-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 500px;
+    margin-left: 500px;
+    margin-top: -700px;
+}
+
+.login-form {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+}
+
+.login-p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.login {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

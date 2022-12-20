@@ -10,7 +10,8 @@ recipeShut.addEventListener("click", () => {
 });
 
 function getRecipeList() {
-  let searchInputTxt = document.getElementById("search-inp").value.trim();
+ const searchInputTxt = document.getElementById("search-inp").value.trim();
+
   fetch(
     `https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`
   )
@@ -74,3 +75,39 @@ function mealRecipeModal(meal) {
   mealDetailsContent.parentElement.classList.add("showRecipe");
 }
 
+const logInbtn = document.getElementById("login-btn");
+const inLog = document.getElementById("login");
+const loginDiv = document.getElementById('login-div')
+const body = document.body
+const searchDiv = document.getElementById('searchDiv')
+const title = document.getElementById('title')
+const titleDiv = document.getElementById('titleDiv')
+
+body.appendChild(loginDiv)
+
+
+loginDiv.style.display = 'none'
+
+logInbtn.addEventListener('click',() => {
+    searchBtn.style.display = 'none'
+    mealOr.style.display = 'none'
+    recipeShut.style.display = 'none'
+    mealDetailsContent.style.display = 'none'
+    searchDiv.style.display = 'none'
+    title.style.display = 'none'
+    titleDiv.style.display = 'none'
+    loginDiv.style.display = 'block'
+})
+
+// inLog.addEventListener('click',() => {
+//     loginDiv.style.display = "none";
+//     searchBtn.style.display = "block";
+//     mealOr.style.display = "block";
+//     recipeShut.style.display = "block";
+//     mealDetailsContent.style.display = "block";
+//     searchDiv.style.display = "block";
+//     title.style.display = "block";
+//     titleDiv.style.display = "block";
+
+    
+// })
