@@ -21,7 +21,7 @@ To use this application live just press the link in the about section above, or 
  
                "https://frolicking-basbousa-058c91.netlify.app"
  
-When the page load you should see the title of the project and the search bar.
+When the page loads you should see the title of the project and the search bar.
  
 To use it
 - In the search bar enter any ingredient for example: `garlic, beef, eggs, bread`

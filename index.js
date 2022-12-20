@@ -3,7 +3,7 @@ const mealOr = document.getElementById("recipe");
 const mealDetailsContent = document.querySelector(".recipe-content");
 const recipeShut = document.getElementById("recipe-shut-btn");
 
-searchBtn.addEventListener("click", getRecipeList);
+searchBtn.addEventListener("click", getRecipeList)
 mealOr.addEventListener("click", getMealRecipe);
 recipeShut.addEventListener("click", () => {
   mealDetailsContent.parentElement.classList.remove("showRecipe");
